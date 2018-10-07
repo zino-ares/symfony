@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 nov. 2016, 13:47:05
+    Author     : Zino
+*/
+@font-face{
+    font-family: 'ecriture';
+    src : url('amarillo.otf') format('otf');
+    src : url('amarillo.ttf') format('ttf');
+}
+
+body{
+    background:url("etoilerouge.jpeg") fixed no-repeat top right,url("backgapple.jpg") repeat fixed;
+    
+}
+p{
+    font-size: 1em;
+    width: 200px;
+    min-width: 300px;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 10px;
+    color:blue;
+    
+    
+}
+
+h1{
+    font-size: 4em;
+    font-family: 'ecriture';
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    background-color: #D2D2D2;
+    opacity: 1.0;
+    border: 3px blue outset;
+    
+}
+
+.paraf1{
+    font-size: 1.2em;
+    border: 0px grey outset;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    box-
+    
+}
+.lettrel{
+    float:left;
+    
+}
+
+.paraf2{
+    font-size: 1.2em;
+    text-align: center;
+    clear:both;
+    border: 2px blue outset;
+}
+
+.signature{
+    font-style: italic;
+    text-align: right;
+    font-size: 1.2em;
+    float: right;
+}
+mark{
+    background-color: #D2D2D2;
+    color:black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+a:active{
+    color: green;
+}
+
+a:focus{
+    background-color: #FFCC66;
+}
+
+a:visited{
+    color:red;
+}
+
+#conteneur{
+    
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.element{
+    background-color: orange;
+    width: 150px;
+    height: 200px;
+}
+
+.element1{
+    background-color: blue;
+    width: 150px;
+    height: 200px;
+    flex:1;
+}
+
+.element2{
+    background-color: green;
+    width: 150px;
+    height: 200px;
+}
+
+@media screen and (max-width:1024px){
+    p{
+        color:red;
+    }
+}

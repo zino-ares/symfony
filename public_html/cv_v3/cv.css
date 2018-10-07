@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 nov. 2016, 15:16:31
+    Author     : Zino
+*/
+@font-face{
+    font-family: 'ecriture';
+    src : url('amarillo.otf') format('otf');
+    src : url('amarillo.ttf') format('ttf');
+}
+
+#logo{
+    float:right;
+}
+
+nav
+{
+    float: left;
+    width: 90px;
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    background: url("background_repeat.jpg") left;
+}
+
+h1,h2{
+    font-family: 'ecriture';
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+.pres{
+    text-align: center;
+    font-size: 1.7em;
+    display:flex;
+}
+.presentation{
+    font-weight: bold;
+    text-align: center;
+    border: 1px #F7F7F7 outset;
+    border-radius: 7px;
+    box-shadow: 5px 4px 5px black;
+    padding: 0.5em;
+    display:flex;
+    
+}
+
+body{
+    background:url("backgapple.jpg") repeat fixed;
+    
+}
+
+.exp{
+    margin-top:80px;
+    margin-left: 15px;
+    margin-right: 500px;    
+   
+}
+
+
+
+.dec{
+    text-decoration: underline;
+}
+
+.comp{
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.form{
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.contexp{
+ border-width:1px 2px 3px 2px;
+ border-style:solid dotted;
+ border-color:black red;
+ padding:0 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+a:visited{
+    color:red;
+}
+
+
+
+
+section
+{
+    display: inline-block;
+    margin-left: 150px;
+    
+}
+
+#conteneur{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    margin-top: 300px;
+    margin-left: 50px;
+    
+}
+
+
+#finpage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    
+    margin-top: 200px;
+   
+}
+
+@media all and (max-width: 1024px){
+    
+    #bloc_page
+    {
+        width: auto;
+    }
+    
+    
+    #liseret_gauche{
+        
+        display:none;
+    }
+    
+    #conteneur{
+        flex-direction: column;
+    }
+    
+    
+}
+
+    
